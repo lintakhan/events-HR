@@ -1,0 +1,66 @@
+.main{
+    background-color: black;
+    /* width: 100%; */
+    height: 93vh;
+}
+
+.eventform{
+   margin: 20px;
+   padding: 25px;
+   width: 46%;
+   background-color: #191c24;
+   color: #fff;
+   border-radius: 12px;
+   margin: auto;
+   
+}
+
+.stext1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: 2px solid yellow;
+    border-radius: 12px;
+    /* border: 2px solid white; */
+    width: 100%;
+    margin: 2px;
+    margin-bottom: 18px;
+    padding: 10px;
+}
+
+
+input [tyoe=text]{
+    font-weight: bold;
+}
+
+
+.btnbtn1{
+    padding: 13px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #191c24;
+    border-radius: 12px;
+    width: 25%;
+    border: 2px solid yellow;
+    align-items: center;
+    margin-left: 23px;
+    margin-right: 41px;
+}
+
+.btnbtn1:hover{
+    background: rgb(141, 141, 35);
+}
+
+@media (max-width:950px){
+    .eventform{
+        width: 100%;
+    }
+
+    .btnbtn1{
+        width: 100%;
+        margin-left: 3px;
+        margin-bottom: 10px;
+    }
+}
